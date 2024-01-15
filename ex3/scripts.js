@@ -17,19 +17,19 @@ let numero = Number(prompt("Qual número deseja verificar?"));
 
 if (numero > 0 && numero <= 20) {
   for (let i = 1; i <= numero; i++) {
-    if (i % 3 !== 0 || i % 4 !== 0 || (i % 3 !== 0 && i % 4 !== 0)) {
+    if (i % 3 !== 0 && i % 4 !== 0) {
         console.log(i);
     }
   }
 } else if (numero > 20 && numero <= 30) {
-  for (let i = 21; i <= numero; i++) {
-    if (i % 2 != 0 || i % 6 != 0 || (i % 2 != 0 && i % 6 != 0)) {
+  for (let i = 0; i <= numero; i++) {
+    if (i % 2 != 0 && i % 6 != 0) {
         console.log(i);
     }
   }
 } else {
-  for (let i = 31; i <= numero; i++) {
-    if (i % 5 != 0 || i % 8 != 0 || (i % 5 != 0 && i % 8 != 0)) {
+  for (let i = 0; i <= numero; i++) {
+    if (i % 5 != 0 && i % 8 != 0) {
         console.log(i);
     }
   }
