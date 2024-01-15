@@ -9,19 +9,20 @@
 // 2. Fluxograma (diagrama) , representando o código;
 // 3. O código executando com os resultados desejados.
 
-// if (confirm('Deseja somar os números?') === true) {
-//     let numero = Number(prompt('Digite um número'))
-//     let i = 0;
-//     let soma = 0;
-//     while (i <= numero) {
-//         soma = soma + i;
-//         i++;
-//     }
-//     console.log(soma)
-// } else {
-//     console.log('Você infelizmente não deseja somar os números')
-// }
+if (confirm('Deseja somar os números?') === true) {
+    let numero = Number(prompt('Digite um número'))
+    let i = 0;
+    let soma = 0;
+    while (i <= numero) {
+        soma = soma + i;
+        i++;
+    }
+    console.log(soma)
+} else {
+    console.log('Você infelizmente não deseja somar os números')
+}
 
+//Pseudo-código
 // Perguntar ao usuário se ele quer fazer a soma:
 // Se ele confirmar -> pedir um número e  criar um loop de repetição para somar 
 // os números entre 0 e o número dado. Mostrar o resultado da soma.

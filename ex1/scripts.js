@@ -8,3 +8,30 @@
 // 1. Pseudo-código;
 // 2. Fluxograma (diagrama) , representando o código;
 // 3. O código executando com os resultados desejados.
+
+//let iniciarJogo = confirm("Deseja começar o jogo?");
+// if (iniciarJogo === true) {
+//     do {
+//         var continuarJogo =  confirm('Deseja continuar?')
+//      } while (continuarJogo === true);
+//     console.log('Fim dos Jogos!')
+// } else {
+//     console.log('Fim dos Jogos!')
+// }
+
+// let iniciarJogo = confirm("Deseja começar o jogo?");
+// if (iniciarJogo === true) {
+//     var continuarJogo = confirm("Deseja continuar?");
+//   for (; continuarJogo === true; ) {
+//     var continuarJogo = confirm("Deseja continuar?");
+//   } console.log('Fim dos Jogos!')
+// } else {
+//     console.log('Fim dos Jogos!')
+// }
+
+// Pseudo-código:
+
+// Perguntar para o usuário se ele quer começar o jogo. 
+// Se sim , entrar no loop de confirmação para continuar o jogo. Se cancelar o jogo 
+// no loop, exibir mensagem. 
+// Se não quiser começar o jogo, exibir mensagem.
